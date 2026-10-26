@@ -1,0 +1,15 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+
+entity busmux is
+	port(
+		a: in std_logic_vector ( 1 downto 0 );
+		sal: out std_logic_vector ( 6 downto 0 )
+	);
+end musmux;
+
+architecture behavioral of busmux is
+begin
+	
+end behavioral;

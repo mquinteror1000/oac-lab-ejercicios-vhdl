@@ -39,6 +39,9 @@ begin
 			when "111" => 
 				luz_roja <= '1';
 				luz_verde <= '0';
+			when  others =>
+				luz_roja <= '0';
+				luz_verde <= '0';
 		end  case;
 	end process;
 end behavioral;
